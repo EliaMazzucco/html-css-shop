@@ -2,28 +2,16 @@
     text-align: center;
 }
 .section{
-        margin: 17px;
+    margin: 2%;
 }
-.img1{
-    width: 130px;
-    height: 155px;
-    position: relative;
-}
-.img2{
-    width: 130px;
-    height: 155px;
-    position: relative;
-}
-.img3{
-    width: 130px;
-    height: 155px;
+.img1{   
     position: relative;
 }
 .box1{
     z-index: 1;
     background-color: green;
-    width: 18px;
-    height: 9px;
+    width: 14%;
+    height: 7%;
     position: absolute;
     top: 0;
     right: 0;
@@ -31,65 +19,37 @@
 .box2{
     z-index: 1;
     background-color: red;
-    width: 18px;
-    height: 9px;
+    width: 14%;
+    height: 7%;
     position: absolute;
     top: 0;
     right: 0;
 }
-.box3{
-    z-index: 2;
-    background-color: green;
-    width: 18px;
-    height: 9px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+
 .div1{
     display: inline-block;
-    width: 130px;
-    height: 155px;
-    position: relative;
-    
-}
-.div2{
-    display: inline-block;
-    width: 130px;
-    height: 155px;
-    position: relative;
-}
-.div3{
-    display: inline-block;
-    width: 130px;
-    height: 155px;
     position: relative;
     
 }
 .sale{
-    font-size: 8px;
+    font-size: 120%;
     position: absolute;
-    top: 0;
-    right: 0;
-    text-align: center;
+    top: 0%;
+    right: 0%;
+    
 }
 
 .cuore{
-    display:none;    
-    z-index: 0;
-    font-size: 7px;
+    display: none;    
+    z-index: 0;    
     color: red;
     text-align: center;
     position: absolute;
-    left: 65px;
-    bottom: 4px;
+    left: 50%;
+    bottom: 3.5%;
 }
 .div1:hover > .cuore{
     display:block;
 }
-.div2:hover > .cuore{
-    display:block;
-}
-.div3:hover > .cuore{
-    display:block;
-}
+
+
