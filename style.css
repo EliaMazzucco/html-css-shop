@@ -20,7 +20,7 @@ body{
     z-index: 1;
     background-color: green;
     width: 18px;
-    height: 12px;
+    height: 9px;
     position: absolute;
     top: 0;
     right: 0;
@@ -29,7 +29,7 @@ body{
     z-index: 1;
     background-color: red;
     width: 18px;
-    height: 12px;
+    height: 9px;
     position: absolute;
     top: 0;
     right: 0;
@@ -38,7 +38,7 @@ body{
     z-index: 2;
     background-color: green;
     width: 18px;
-    height: 12px;
+    height: 9px;
     position: absolute;
     top: 0;
     right: 0;
@@ -61,5 +61,15 @@ body{
     width: 130px;
     height: 155px;
     position: relative;
+    
+}
+.sale{
+    font-size: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+#section{
     
 }
