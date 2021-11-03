@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+}
+.img1{
+    width: 130px;
+    height: 155px;
+    position: relative;
+}
+.img2{
+    width: 130px;
+    height: 155px;
+    position: relative;
+}
+.img3{
+    width: 130px;
+    height: 155px;
+    position: relative;
+}
+.box1{
+    z-index: 1;
+    background-color: green;
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box2{
+    z-index: 1;
+    background-color: red;
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box3{
+    z-index: 2;
+    background-color: green;
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.div1{
+    display: inline-block;
+    width: 130px;
+    height: 155px;
+    position: relative;
+    
+}
+.div2{
+    display: inline-block;
+    width: 130px;
+    height: 155px;
+    position: relative;
+}
+.div3{
+    display: inline-block;
+    width: 130px;
+    height: 155px;
+    position: relative;
+    
+}
