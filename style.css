@@ -1,5 +1,8 @@
-body{
+*{
     text-align: center;
+}
+.section{
+        margin: 17px;
 }
 .img1{
     width: 130px;
@@ -70,6 +73,23 @@ body{
     right: 0;
     text-align: center;
 }
-#section{
-    
+
+.cuore{
+    display:none;    
+    z-index: 0;
+    font-size: 7px;
+    color: red;
+    text-align: center;
+    position: absolute;
+    left: 65px;
+    bottom: 4px;
+}
+.div1:hover > .cuore{
+    display:block;
+}
+.div2:hover > .cuore{
+    display:block;
+}
+.div3:hover > .cuore{
+    display:block;
 }
